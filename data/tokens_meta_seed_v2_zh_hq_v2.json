@@ -1,0 +1,23 @@
+{
+  "corpus_files": [
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq_v2/skypile_zh.txt",
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq_v2/skypile_zh_more.txt",
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq_v2/stories_zh.txt",
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq_v2/web_zh_clean_base.txt",
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq_v2/wiki_pretrain_zh.txt",
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq_v2/wiki_pretrain_zh_more.txt",
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq_v2/wiki_zh_clean_base.txt"
+  ],
+  "n_files": 7,
+  "tokenizer": "Qwen/Qwen2.5-1.5B",
+  "tokenizer_backend": "hf",
+  "vocab_size": 151665,
+  "n_tokens": 448245313,
+  "n_train": 403420781,
+  "n_val": 44824532,
+  "train_ratio": 0.9,
+  "dtype": "uint32",
+  "train_bin": "data/seed_v2_zh_hq_v2_train.bin",
+  "val_bin": "data/seed_v2_zh_hq_v2_val.bin",
+  "encode_seconds": 694.1
+}

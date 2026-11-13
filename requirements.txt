@@ -1,0 +1,9 @@
+# 学习型微型 Transformer 依赖
+# Mac（Apple Silicon / Intel）若要用 MPS，建议到 https://pytorch.org 按官方指引安装 torch，
+# 再 pip install -r requirements.txt；仅 CPU 也可直接本文件安装。
+torch>=2.0
+tokenizers>=0.15
+transformers>=4.40
+huggingface_hub>=0.23
+numpy>=1.24
+datasets>=2.19

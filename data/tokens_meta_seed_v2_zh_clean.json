@@ -1,0 +1,18 @@
+{
+  "corpus_files": [
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_clean/web_zh.txt",
+    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_clean/wiki_zh.txt"
+  ],
+  "n_files": 2,
+  "tokenizer": "Qwen/Qwen2.5-1.5B",
+  "tokenizer_backend": "hf",
+  "vocab_size": 151665,
+  "n_tokens": 74902327,
+  "n_train": 67412094,
+  "n_val": 7490233,
+  "train_ratio": 0.9,
+  "dtype": "uint32",
+  "train_bin": "data/seed_v2_zh_clean_train.bin",
+  "val_bin": "data/seed_v2_zh_clean_val.bin",
+  "encode_seconds": 107.2
+}

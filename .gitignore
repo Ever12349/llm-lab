@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# 本地环境
+.venv/
+.venv-pt210/
+venv/
+.env
+.DS_Store
+
+# 权重与检查点
+*.pt
+*.pth
+checkpoints/
+
+# 日志与进程文件
+logs/
+*.log
+*.pid
+
+# 本地备份
+*.bak
+*.bak_*
+
+# 语料与编码后的大数据（保留 data/README.md、tokens_meta*.json，以及小型 SentencePiece 词表）
+data/**/*.bin
+data/**/*.txt
+data/**/*.log
+data/**/*.pid
+data/**/parts/
+data/spm_corpus_v1/
+data/spm_corpus_v1_smoke/
+data/seed_v2_zh_clean/
+data/seed_v2_zh_hq/
+data/seed_v2_zh_hq_v2/
+data/corpus/*.txt
+data/seed/*.txt
+data/input.txt
+data/input.*.txt
