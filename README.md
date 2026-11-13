@@ -54,7 +54,7 @@ llm-lab/
 ## 环境准备
 
 ```bash
-cd /Users/qianxiao/worker/llm-lab
+cd llm-lab
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
