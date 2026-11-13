@@ -1,7 +1,7 @@
 {
   "corpus_files": [
-    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_clean/web_zh.txt",
-    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_clean/wiki_zh.txt"
+    "data/seed_v2_zh_clean/web_zh.txt",
+    "data/seed_v2_zh_clean/wiki_zh.txt"
   ],
   "n_files": 2,
   "tokenizer": "Qwen/Qwen2.5-1.5B",

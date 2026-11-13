@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extract_epub import extract_epub  # noqa: E402
 
-ROOT = Path("/Users/qianxiao/worker/llm-lab")
+ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "data" / "raw_epub"
 SOURCES = OUT_DIR / "manifest_batch5_sources.txt"
 PROGRESS = OUT_DIR / "batch5_progress.json"

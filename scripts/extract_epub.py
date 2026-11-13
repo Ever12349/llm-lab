@@ -307,15 +307,17 @@ DEFAULT_BOOKS = [
 
 def main(argv: Iterable[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
+    root = Path(__file__).resolve().parents[1]
     ap.add_argument(
         "--source-dir",
         type=Path,
-        default=Path("/Volumes/备份/一般资料/轻小说/物语系列合集ePub"),
+        required=True,
+        help="EPUB 源目录（需本机自行指定，不写死路径）",
     )
     ap.add_argument(
         "--out-dir",
         type=Path,
-        default=Path("/Users/qianxiao/worker/llm-lab/data/raw_epub"),
+        default=root / "data" / "raw_epub",
     )
     ap.add_argument("--limit", type=int, default=10, help="Max books to process")
     args = ap.parse_args(list(argv) if argv is not None else None)

@@ -1,10 +1,10 @@
 {
   "corpus_files": [
-    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq/skypile_zh.txt",
-    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq/stories_zh.txt",
-    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq/web_zh_clean_base.txt",
-    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq/wiki_pretrain_zh.txt",
-    "/Users/qianxiao/worker/llm-lab/data/seed_v2_zh_hq/wiki_zh_clean_base.txt"
+    "data/seed_v2_zh_hq/skypile_zh.txt",
+    "data/seed_v2_zh_hq/stories_zh.txt",
+    "data/seed_v2_zh_hq/web_zh_clean_base.txt",
+    "data/seed_v2_zh_hq/wiki_pretrain_zh.txt",
+    "data/seed_v2_zh_hq/wiki_zh_clean_base.txt"
   ],
   "n_files": 5,
   "tokenizer": "Qwen/Qwen2.5-1.5B",
